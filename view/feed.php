@@ -71,7 +71,7 @@
                   <?php $mode = current($cat_anun) ?>
                   <div class="col-md-3">
                     <div class="card mb-2">
-                     <a href="anu_detail.php?">
+                     <a href="anu_detail.php?d=<?= $mode['anu_id']?>">
                        <img class="card-img-top" src="<?=$mode['anu_imagem']?>"
                        alt="Card image cap">		
                      </a>
@@ -82,7 +82,7 @@
 
                   <div class="col-md-3 clearfix d-none d-md-block">
                     <div class="card mb-2">
-                      <a href="anu_detail.php?">
+                      <a href="anu_detail.php?d=<?= $mode['anu_id']?>">
                        <img class="card-img-top" src="<?=$mode['anu_imagem']?>"
                        alt="Card image cap">
                      </a>

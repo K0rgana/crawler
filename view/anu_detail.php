@@ -1,3 +1,4 @@
+<?php include_once '../controller/anun.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,10 +30,10 @@
 						
 					</div>
 					<div class="details col-md-6">
-						<h3 class="product-title">titulo do anuncio</h3>
+						<h3 class="product-title"><?= $anun[0]['anu_titulo'] ?> </h3>
 						
-						<p class="product-description">Suspendisse quos? Tempus cras iure temporibus? Eu laudantium cubilia sem sem! Repudiandae et! Massa senectus enim minim sociosqu delectus posuere.</p>
-						<h4 class="product-quant"> Quantidade: <span>2 Unidades</span></h4>
+						<p class="product-description"><?= $anun[0]['anu_descricao'] ?></p>
+						<h4 class="product-quant"> Quantidade: <span><?= $anun[0]['anu_quantidade'] ?> Unidades</span></h4>
 
             <!--Google map-->
               <!--Card content-->
