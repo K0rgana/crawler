@@ -18,14 +18,14 @@
 					<div class="preview col-md-6">
 						
 						<div class="preview-pic tab-content">
-						  <div class="tab-pane active" id="pic-1"><img src="img/recycle.jpg" style="width: 100%;" /></div>
+						  <div class="tab-pane active" id="pic-1"><img src="<?= $anun[0]['anu_imagem'] ?>" style="width: 100%;" /></div>
 						  <div class="tab-pane" id="pic-2"><img src="img/slide1.jpg" /></div>
 						  <div class="tab-pane" id="pic-3"><img src="img/slide2.jpg" /></div>
 						</div>
 						<ul class="preview-thumbnail nav nav-tabs">
-						  <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="img/recycle.jpg" /></a></li>
-						  <li><a data-target="#pic-2" data-toggle="tab"><img src="img/slide1.jpg" /></a></li>
-						  <li><a data-target="#pic-3" data-toggle="tab"><img src="img/slide2.jpg" /></a></li>
+						  <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="<?= $anun[0]['anu_imagem'] ?>" /></a></li>
+						  <li><a data-target="#pic-2" data-toggle="tab"><img src="<?= $anun[0]['anu_imagem'] ?>" /></a></li>
+						  <li><a data-target="#pic-3" data-toggle="tab"><img src="<?= $anun[0]['anu_imagem'] ?>" /></a></li>
 						</ul>
 						
 					</div>
