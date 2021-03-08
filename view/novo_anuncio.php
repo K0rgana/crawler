@@ -18,7 +18,7 @@
 
 		<div class="mb-3">
 			<label for="desc" class="form-label">Descrição</label>
-			<textarea class="form-control" id="desc" placeholder="Adicione uma descrição"></textarea>
+			<textarea class="form-control" name="desc" id="desc" placeholder="Adicione uma descrição"></textarea>
 		</div>
 
 		<div class="input-group mb-3">
