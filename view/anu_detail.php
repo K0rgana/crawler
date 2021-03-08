@@ -48,8 +48,10 @@
               </div>
               <!--/.Card content-->
 
-						<div class="action">
-							<button class="btn btn-dk-green btn-lg btn-block product-contact" type="button"> Entrar em contato</button>
+							<div class="action">
+							<a href="https://api.whatsapp.com/send?phone=55<?= $usu[0]['usu_telefone'] ?>&text=Olá,%20tenho%20interesse%20no%20seu%20anúncio%20<?= $anun[0]['anu_titulo'] ?>%20do%20site%20Crawler.">
+								<button class="btn btn-dk-green btn-lg btn-block product-contact" type="button"> <i class="fab fa-whatsapp"></i> Entrar em contato pelo WhatsApp</button>
+								</a>
 						</div>
 					</div>
 				</div>
