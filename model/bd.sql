@@ -71,6 +71,7 @@ CREATE TABLE IF NOT EXISTS `mydb`.`cwl_anuncio` (
   `anu_usu_id` INT NOT NULL,
   `anu_imagem` VARCHAR(45) not NULL,
   `anu_titulo` VARCHAR(45) not NULL,
+  `anu_descricao` VARCHAR(255) not NULL,
   `anu_quantidade` INT NULL,
   `anu_data` TIMESTAMP(2) NULL,
   `anu_cat_id` INT NOT NULL,

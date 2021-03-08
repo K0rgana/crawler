@@ -4,9 +4,9 @@
 preg_match('/image\/.*/', $_FILES['userfile']['type'],$type);
 
 if (sizeof($type) > 0) {
-$uploaddir = './view/img_anun/';
+$uploaddir = './img_anun/';
 $uploadfile = $uploaddir . time() . preg_replace('/.*\//', '.',$_FILES['userfile']['type'] );
-	if (move_uploaded_file($_FILES['userfile']['tmp_name'], ".".$uploadfile)) {
+	if (move_uploaded_file($_FILES['userfile']['tmp_name'], "../view/".$uploadfile)) {
 
 		$titulo = strip_tags($_POST['title']);
 		$desc = strip_tags($_POST['desc']);
@@ -15,8 +15,8 @@ $uploadfile = $uploaddir . time() . preg_replace('/.*\//', '.',$_FILES['userfile
 
 
 
-		$stmt = $pdo->prepare('INSERT INTO cwl_anuncio(anu_usu_id,anu_imagem,anu_titulo,anu_quantidade,anu_data,anu_cat_id,anu_end_id,anu_status) values (?,?,?,?,?,?,?,?)');
-		$stmt->execute([$_SESSION['user_id'],$uploadfile,$titulo,$quant,date('d-m-y'),$cat,1,1]);
+		$stmt = $pdo->prepare('INSERT INTO cwl_anuncio(anu_usu_id,anu_imagem,anu_titulo,anu_descricao,anu_quantidade,anu_data,anu_cat_id,anu_end_id,anu_status) values (?,?,?,?,?,?,?,?,?)');
+		$stmt->execute([$_SESSION['user_id'],$uploadfile,$titulo,$desc,$quant,date('d-m-y'),$cat,1,1]);
 
 
 		header('Location:/');
