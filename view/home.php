@@ -8,22 +8,20 @@
 </head>
 <body>
 	<main>
-		<div class="container-fluid">
-			<div class="row">
+		
 
-				<?php
+		<?php
 
-				if (isset($_SESSION['logged'])) {
-					include 'feed.php';
-				} else {
-					include 'login_form.php';
-				}
+		if (isset($_SESSION['logged'])) {
+			include 'feed.php';
+		} else {
+			include 'form_login.php';
+		}
 
-				?>
+		?>
 
-				
-			</div>
-		</div>
+		
+		
 	</main>
 	<?php include 'temp/footer.php'; ?>
 </body>

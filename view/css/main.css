@@ -3,8 +3,80 @@
 
 /*      estilos globais    */
 main {
-  margin-top: 90px;
+  margin-top: 80px;
+  min-height: 80vh;
 }
+
+.screen-login{
+  position: absolute;
+  height: 81%;
+  width: 100%;
+  /*background: url('../img/slide1.jpg');*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    background-color: white;
+    color: white;
+  }
+
+  #screen-bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url('../img/slide1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    color: white;
+    z-index: 0;
+  }
+  .with{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+  }
+  .bar{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    margin-left: 60vw;
+    background-color: #9acd32;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .bar-component{
+    height: 50%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .form-login{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+
+
 a {
   color: #006400;
 }
