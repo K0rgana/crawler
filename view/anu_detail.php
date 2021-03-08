@@ -41,7 +41,7 @@
 
                 <!--Google map-->
                 <div id="map-container-google-9" class="z-depth-1-half map-container-5" style="width: 100%; height: 200px">
-                  <iframe src="https://maps.google.com/maps?q=Igarassu&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                  <iframe src="https://maps.google.com/maps?q=<?= $end[0]['end_cep'] ?>+<?= $end[0]['end_rua'] ?>+<?= $end[0]['end_numero'] ?>&t=&z=18&ie=UTF8&iwloc=&output=embed" frameborder="0"
                     style="border:0" allowfullscreen></iframe>
                 </div>
 
