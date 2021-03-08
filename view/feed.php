@@ -62,7 +62,7 @@
         <div class="carousel-inner" role="listbox">
 
           <!--First slide-->
-          <a href="anu_detail.php?"><h1><?= $titulos[$i - 1] ?></h1></a>
+          <h1><?= $titulos[$i - 1] ?></h1>
           <div class="carousel-item active">
 
             <div class="row">
@@ -107,7 +107,7 @@
 
                 <div class="col-md-3">
                   <div class="card mb-2">
-                   <a href="anu_detail.php?">
+                   <a href="#">
                      <img class="card-img-top" src="<?=$mode['anu_imagem']?>"
                      alt="Card image cap">    
                    </a>
@@ -117,7 +117,7 @@
 
                 <div class="col-md-3 clearfix d-none d-md-block">
                   <div class="card mb-2">
-                    <a href="anu_detail.php?">
+                    <a href="#">
                      <img class="card-img-top" src="<?=$mode['anu_imagem']?>"
                      alt="Card image cap">
                    </a>
