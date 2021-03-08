@@ -8,8 +8,8 @@ $stmt->execute([$id_anun]);
 $anun = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 $stmt = $pdo->prepare('SELECT * FROM cwl_usuario WHERE usu_id = ?');
-$stmt->execute([$anun[0]['anu_usu_id']);
+$stmt->execute([$anun[0]['anu_usu_id']]);
 
-$usu = $stmt->fetchAll(PDO::FETCH_ASSOC);
+$usu = $stmt->fetchAll();
                 
  ?>
