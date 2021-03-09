@@ -3,8 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Home</title>
-	<?php include 'templates/header.php'; ?>
+	<title>Crawler</title>
 </head>
 <body>
 	<main>
@@ -45,14 +44,14 @@
 					<form method="post" action="/controller/login.php">
 						<!-- Email input -->
 						<div class="form-outline mb-4" style="margin-top: 20px">
-							<label class="form-label" for="f_email">Endereço de e-mail</label>
-							<input type="email" id="f_email" class="form-control" name="email" />
+							<label class="form-label" for="f_email">E-mail</label>
+							<input type="email" id="f_email" class="form-control" name="email" required />
 						</div>
 
 						<!-- Password input -->
 						<div class="form-outline mb-4">
 							<label class="form-label" for="f_senha">Senha</label>
-							<input type="password" id="f_senha" class="form-control" name="password" />
+							<input type="password" id="f_senha" class="form-control" name="password" required />
 						</div>
 
 						<!-- 2 column grid layout for inline styling -->
@@ -82,13 +81,13 @@
 					</form>
 	  					</div>
 	  					<div class="container text-center mt-4">
-							<a class="font-weight-bold" href="#!">Cadastre-se</a>
+							<a class="font-weight-bold" href="cadastro.php">Cadastre-se</a>
 						</div>			
   				</div>
 
 			</div>
 		</div>
 	</main>
-	<?php include 'templates/footer.php'; ?>
+	
 </body>
 </html>

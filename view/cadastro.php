@@ -21,36 +21,36 @@
 		<div class="mb-3 row">
 			<label for="f_name" class="col-sm-2 col-form-label">Nome</label>
 			<div class="col-sm-4">
-				<input name="f_name" type="text"  class="form-control">
+				<input name="f_name" type="text"  class="form-control" required>
 			</div>
 			<label for="l_name" class="col-sm-2 col-form-label">Sobrenome</label>
 			<div class="col-sm-4">
-				<input name="l_name" type="text" class="form-control" >
+				<input name="l_name" type="text" class="form-control" required >
 			</div>
 		</div>
 		<div class="mb-3 row">
 			<label for="email" class="col-sm-2 col-form-label">Email</label>
 			<div class="col-sm-10">
-				<input name="email" type="email"  class="form-control" value="email@example.com">
+				<input name="email" type="email"  class="form-control" placeholder="email@example.com" required>
 			</div>
 		</div>
 		<div class="mb-3 row">
 			<label for="phone" class="col-sm-2 col-form-label">Telefone</label>
 			<div class="col-sm-10">
-				<input name="phone" type="tel"  class="form-control" value="(99) 99999-9999">
+				<input name="phone" type="tel"  class="form-control" placeholder="(99) 99999-9999" required>
 			</div>
 		</div>
 
 		<div class="mb-3 row">
 			<label for="password" class="col-sm-2 col-form-label">senha</label>
 			<div class="col-sm-10">
-				<input name="password" type="password" class="form-control">
+				<input name="password" type="password" class="form-control" required>
 			</div>
 		</div>
 		<div class="mb-3 row">
 			<label for="comfirm" class="col-sm-2 col-form-label">Confirme sua senha</label>
 			<div class="col-sm-10">
-				<input name="confirm" type="password" class="form-control" >
+				<input name="confirm" type="password" class="form-control" required>
 			</div>
 		</div>
 		<div class="mb-3 row">
