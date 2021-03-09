@@ -55,13 +55,13 @@
     <?php else: ?>
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         <li class="nav-item">
-          <a class="nav-link text-white font-weight-bold" href="#">Sobre</a>
+          <a class="nav-link text-white font-weight-bold" href="/view/home.php">Entrar</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-white font-weight-bold" href="/view/cadastro.php">Cadastrar</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white font-weight-bold" href="/view/home.php">Entrar</a>
+          <a class="nav-link text-white font-weight-bold" href="#">Sobre</a>
         </li>
       </ul>
     <?php endif ?>
