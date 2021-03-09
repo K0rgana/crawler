@@ -8,12 +8,12 @@
 
 		<div class="mb-3">
 			<label for="formFileMultiple" class="form-label">Selecione ou faça upload de uma imagem</label>
-			<input class="form-control" type="file" id="formFileMultiple" name="userfile" multiple>
+			<input class="form-control" type="file" id="formFileMultiple" name="userfile" multiple required>
 		</div>
 
 		<div class="mb-3">
 			<label for="title" class="col-sm-2 col-form-label">Título</label>
-				<input name="title" type="text"  class="form-control">
+				<input name="title" type="text"  class="form-control" required>
 		</div>
 
 		<div class="mb-3">
@@ -23,7 +23,7 @@
 
 		<div class="input-group mb-3">
 			<label class="input-group-text" for="cat">Categoria</label>
-			<select class="form-select" name="cat" id="cat">
+			<select class="form-select" name="cat" id="cat" required>
 				<option selected>Selecione...</option>
 				<option value="1">Eletrônicos</option>
 				<option value="2">Metal</option>
@@ -35,7 +35,7 @@
 		
 		<div class="mb-3">
 			<label for="quant" class="col-sm-2 col-form-label">Quantidade</label>
-			<input name="quant" type="number"  class="form-control">
+			<input name="quant" type="number"  class="form-control" required>
 		</div>
 
 		<button class="btn btn-dk-green "type="submit">Publicar</button>
