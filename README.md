@@ -18,8 +18,4 @@ Crawler é uma aplicação web que busca incentivar a coleta seletiva e promover
 
 ## :recycle: Resultado
 Você pode conferir o projeto funcionando pelo site [tsicrawler.epizy.com](http://tsicrawler.epizy.com
-)
-
-<p align="center">
- <iframe src="https://drive.google.com/file/d/1QwYRqAMqgjCeOV-DXuKHzrgfq0EvJ-qY/preview" width="640" height="480"></iframe>
-</p>
+) ou [Assista ao vídeo ↗](https://youtu.be/WlehvidBKwo)
