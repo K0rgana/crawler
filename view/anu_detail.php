@@ -1,4 +1,4 @@
-php<?php include_once '../controller/anun.php'; ?>
+<?php include_once '../controller/anun.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,7 +57,7 @@ php<?php include_once '../controller/anun.php'; ?>
 							<?php else: ?>
 								<div class="action">
 									<a href="/controller/remove.php?a=<?= $anun[0]['anu_id'] ?>&u=<?= $_SESSION['user_id'] ?>&f=<?=$anun[0]['anu_imagem'] ?>">
-										<button class="btn btn-dk-green btn-lg btn-block product-contact" type="button"> Remover este anunncio</button>
+										<button class="btn btn-dk-green btn-lg btn-block product-contact" type="button"><i class="fas fa-trash-alt"></i> Remover este anúncio</button>
 									</a>
 								</div>
 							<?php endif ?>
